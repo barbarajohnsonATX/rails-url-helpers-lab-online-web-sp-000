@@ -9,7 +9,8 @@ class StudentsController < ApplicationController
   end
   
   def activate
-    
+    student = set_student
+    student.active = 
   end 
 
   private
